@@ -8,4 +8,4 @@ hostname =%APPEND% api.ihuman.com
 
 [Script]
 
-hgpyvip=type=http-response,pattern=https:\/\/api\.ihuman\.com\/userpvcversion,requires-body=1,script-path=https://raw.githubusercontent.com/lj3lj3/raw/master/js/hepyvip.js
+hgpyvip=type=http-response,pattern=https:\/\/api\.ihuman\.com\/currenttime,requires-body=1,script-path=https://raw.githubusercontent.com/lj3lj3/raw/master/js/hepyvip.js
